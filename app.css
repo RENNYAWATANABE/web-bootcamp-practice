@@ -1,12 +1,17 @@
 
-/* ユニバーサルセレクタ */
-* {
+/* ユニバーサルセレクター */
+/* * {
     background-color: cyan;
+} */
+
+body {
+    background-color: lightblue;
 }
 
-/* 要素型セレクタ */
+/* 要素型セレクター */
 button {
     font-size: 30px ;
+    background-color:gainsboro;
 }
 
 /* セレクターリスト */
@@ -14,7 +19,25 @@ h1, h2 {
     color: darkslateblue;
 }
 
+/* IDセレクター 　※一個しか使えない*/
+#signup {
+    color: white;
+    background-color: darkslateblue;
+}
 
+/* クラスセレクター */
+.tag {
+    background-color: red;
+    color: white;
+    font-size: 16px;
+}
+
+/* 子孫セレクター */
+.post a {
+    color: yellowgreen;
+    text-decoration: none;
+    font-weight: 700;
+}
 
 
 
