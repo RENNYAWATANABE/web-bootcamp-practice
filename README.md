@@ -30,3 +30,44 @@ h1, h2 {
     color: darkslateblue;
 }
 
+✅ **IDセレクタ（`#signup`）**  
+特定のID（例: `<div id="signup">`）を持つ要素の文字色を白、背景色を darkslateblue に設定します。
+```css
+#signup {
+    color: white;
+    background-color: darkslateblue;
+}
+```
+
+✅ **クラスセレクタ（`.tag`）**  
+クラス名 `tag` を持つ要素の背景色を赤、文字色を白、フォントサイズを16pxに設定します。
+```css
+.tag {
+    background-color: red;
+    color: white;
+    font-size: 16px;
+}
+```
+
+✅ **子孫セレクタ（`.post a`）**  
+クラス名 `post` の中にあるすべての `<a>` 要素の文字色を yellowgreen、下線を消し、太字にします。
+```css
+.post a {
+    color: yellowgreen;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
