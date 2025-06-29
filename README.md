@@ -24,7 +24,7 @@ button {
 ```
 
 ✅ セレクターリスト（h1, h2）
-<h1>および<h2>の文字色を darkslateblue に設定します。
+h1 および h2　の文字色を darkslateblue に設定します。
 ```css
 コピーする
 編集する
