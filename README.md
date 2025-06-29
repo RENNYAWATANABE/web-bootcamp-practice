@@ -11,6 +11,7 @@
 * {
     background-color: cyan;
 }
+```
 
 ✅ 要素型セレクタ（button）
 ページ上のすべての <button> 要素のフォントサイズを 30px に設定します。
@@ -20,6 +21,7 @@
 button {
     font-size: 30px ;
 }
+```
 
 ✅ セレクターリスト（h1, h2）
 <h1> および <h2> の文字色を darkslateblue に設定します。
@@ -29,7 +31,8 @@ button {
 h1, h2 {
     color: darkslateblue;
 }
-
+```
+    
 ✅ **IDセレクタ（`#signup`）**  
 特定のID（例: `<div id="signup">`）を持つ要素の文字色を白、背景色を darkslateblue に設定します。
 ```css
@@ -57,7 +60,7 @@ h1, h2 {
     text-decoration: none;
     font-weight: 700;
 }
-
+```
 
 ✅ **属性セレクタ（`input[type="password"]`、`a[href*="google"]`）**  
 特定の属性を持つ要素を選択できます。  
@@ -71,6 +74,7 @@ input[type="password"] {
 a[href*="google"] {
     color: magenta;
 }
+```
 
 ✅ **疑似クラスセレクタ（`:hover`, `:active`, `:nth-of-type`）**  
 要素の特定の状態にスタイルを適用できます。  
@@ -89,7 +93,7 @@ a[href*="google"] {
 .post:nth-of-type(2n) {
     background-color: aliceblue;
 }
-
+```
 
 
 
