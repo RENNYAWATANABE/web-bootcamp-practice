@@ -59,6 +59,36 @@ h1, h2 {
 }
 
 
+✅ **属性セレクタ（`input[type="password"]`、`a[href*="google"]`）**  
+特定の属性を持つ要素を選択できます。  
+例：`type="password"` の `<input>` 要素の文字色を greenyellow に、  
+`href` 属性に "google" を含む `<a>` 要素の文字色を magenta に設定します。
+```css
+input[type="password"] {
+    color: greenyellow;
+}
+
+a[href*="google"] {
+    color: magenta;
+}
+
+✅ **疑似クラスセレクタ（`:hover`, `:active`, `:nth-of-type`）**  
+要素の特定の状態にスタイルを適用できます。  
+例：`.post` クラス内の `<button>` をホバーしたときやクリック中、  
+2番目ごと（偶数番目）の `.post` 要素に背景色を適用します。
+```css
+.post button:hover {
+    background-color: red;
+    color: aliceblue;
+}
+
+.post button:active {
+    background-color: aqua;
+}
+
+.post:nth-of-type(2n) {
+    background-color: aliceblue;
+}
 
 
 
