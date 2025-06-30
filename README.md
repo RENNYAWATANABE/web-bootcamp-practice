@@ -33,7 +33,7 @@ h1, h2 {
 }
 ```
     
-✅ **IDセレクタ（`#signup`）**  
+✅ IDセレクタ（`#signup`）
 特定のID（例: `<div id="signup">`）を持つ要素の文字色を白、背景色を darkslateblue に設定します。
 ```css
 #signup {
@@ -42,7 +42,7 @@ h1, h2 {
 }
 ```
 
-✅ **クラスセレクタ（`.tag`）**  
+✅ クラスセレクタ（`.tag`）  
 クラス名 `tag` を持つ要素の背景色を赤、文字色を白、フォントサイズを16pxに設定します。
 ```css
 .tag {
@@ -52,7 +52,7 @@ h1, h2 {
 }
 ```
 
-✅ **子孫セレクタ（`.post a`）**  
+✅ 子孫セレクタ（`.post a`）
 クラス名 `post` の中にあるすべての `<a>` 要素の文字色を yellowgreen、下線を消し、太字にします。
 ```css
 .post a {
@@ -70,7 +70,7 @@ h2 + button {
 }
 ```
 
-✅ 直下セレクタ（footer > a）
+✅ 直下セレクタ（footer > a） 
 (footer) の直下にある (a) 要素の文字色を aqua にします。
 ```css
 footer > a {
@@ -78,7 +78,7 @@ footer > a {
 }
 ```
     
-✅ **属性セレクタ（`input[type="password"]`、`a[href*="google"]`）**  
+✅ **属性セレクタ （`input[type="password"]`、`a[href*="google"]`）**  
 特定の属性を持つ要素を選択できます。  
 例：`type="password"` の `<input>` 要素の文字色を greenyellow に、  
 `href` 属性に "google" を含む `<a>` 要素の文字色を magenta に設定します。
