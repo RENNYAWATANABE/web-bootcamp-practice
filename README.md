@@ -61,7 +61,20 @@ h1, h2 {
     font-weight: 700;
 }
 ```
-
+✅ 隣接セレクタ（h2 + button）
+同じ親要素内で <h2> の直後にある <button> 要素のフォントサイズを20pxにします。
+```css
+h2 + button {
+    font-size: 20px;
+}
+```
+✅ 直下セレクタ（footer > a）
+<footer> の直下にある <a> 要素の文字色を aqua にします。
+```css
+footer > a {
+    color: aqua;
+}
+```
 ✅ **属性セレクタ（`input[type="password"]`、`a[href*="google"]`）**  
 特定の属性を持つ要素を選択できます。  
 例：`type="password"` の `<input>` 要素の文字色を greenyellow に、  
@@ -94,12 +107,28 @@ a[href*="google"] {
     background-color: aliceblue;
 }
 ```
+✅ 疑似要素セレクタ（::first-letter, ::first-line, ::selection）
+要素の一部だけにスタイルを適用できます。
+```css
+h2::first-letter {
+    font-size: 50px;
+}
 
+p::first-line {
+    color: purple;
+}
 
-
-
-
-
+p::selection {
+    background-color: orange;
+}
+```
+✅ !important
+!important を使うことで、他の指定よりも強いスタイルを適用できます。
+```css
+button {
+    background-color: magenta !important;
+}
+```
 
 
 
