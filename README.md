@@ -71,7 +71,7 @@ h2 + button {
 ```
 
 ✅ 直下セレクタ（footer > a）
-<footer> の直下にある <a> 要素の文字色を aqua にします。
+(footer) の直下にある (a) 要素の文字色を aqua にします。
 ```css
 footer > a {
     color: aqua;
