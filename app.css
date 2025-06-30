@@ -83,9 +83,24 @@ a[href*="google"] {
 }
 
 
+/* 疑似要素　※セレクターに付加するキーワードで、選択された要素の
+部分にスタイル付けできるようにするもの */
+h2::first-letter {   /*h2の最初の文字だけ50pxにする*/
+    font-size: 50px;   
+}
 
+p::first-line {
+    color:purple;  /*1行目を紫にする*/
+}
 
+p::selection {
+    background-color: orange; /*セレクトしたものをオレンジ色にする*/
+}
 
+/* インポータント*/
+button {
+    background-color: magenta !important; /*インポータントはIDセレクタよりも強い*/
+}
 
 
 
@@ -180,10 +195,12 @@ p::first-line {
     color: #f1faee;
 }
 
+*/
 button:hover {
     background-color: olive;
 }
 
+/*
 button {
     background-color: magenta !important;
 }
